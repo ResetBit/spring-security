@@ -145,7 +145,8 @@ public final class SecurityJackson2Modules {
 			"java.util.Collections$EmptyMap",
 			"java.util.Date",
 			"java.util.TreeMap",
-			"org.springframework.security.core.context.SecurityContextImpl"
+			"org.springframework.security.core.context.SecurityContextImpl",
+			"org.springframework.security.oauth2.client.DefaultOAuth2ClientContext"
 		)));
 
 		private final TypeIdResolver delegate;
